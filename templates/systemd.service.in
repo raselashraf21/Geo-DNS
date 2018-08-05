@@ -1,0 +1,12 @@
+[Unit]
+Description=GeoDNS Service
+After=network.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=@XCPACK_PACKAGING_INSTALL_PATH@/@PROJECT_NAME@ -c @XCPACK_PACKAGING_DATA_PATH@/geodns.ini
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target

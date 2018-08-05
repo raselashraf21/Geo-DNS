@@ -1,0 +1,9 @@
+/home/ashraf/geodns/cmake-build-debug/CMakeFiles/package.dir
+/home/ashraf/geodns/cmake-build-debug/CMakeFiles/package_source.dir
+/home/ashraf/geodns/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ashraf/geodns/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ashraf/geodns/cmake-build-debug/CMakeFiles/list_install_components.dir
+/home/ashraf/geodns/cmake-build-debug/CMakeFiles/install.dir
+/home/ashraf/geodns/cmake-build-debug/CMakeFiles/install/local.dir
+/home/ashraf/geodns/cmake-build-debug/CMakeFiles/install/strip.dir
+/home/ashraf/geodns/cmake-build-debug/CMakeFiles/ipv-geodns.dir

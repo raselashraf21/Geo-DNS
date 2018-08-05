@@ -1,0 +1,66 @@
+#ifndef GEODNS_CONFIG_H
+#define GEODNS_CONFIG_H
+
+#include "utility/def.h"
+
+// SOURCE : http://stackoverflow.com/a/7464257
+//          (http://stackoverflow.com/questions/1644868/c-define-macro-for-debug-printing)
+// USAGE  : To print diagnostics to the error log
+// WARNING: Don't use like this
+//          1) D continue; or
+//          2) D break;
+#ifdef DEBUG				// enable through gcc -DDEBUG
+	#define _DEBUG
+    #define FLAG_ENABLE_TEST    1
+#else
+    #define FLAG_ENABLE_TEST    0
+	#define _DEBUG for(;0;)
+#endif
+
+#define _DEBUG_CHANGE
+
+#define FLAG_TEST_PARSER    0
+#define FLAG_TEST_PACKET_PARSER    0
+#define FLAG_TEST_LOG       0
+#define FLAG_TEST_PARSER_TP 0
+#define FLAG_TEST_LOOKUP    0
+#define FLAG_TEST_GEOIP     0
+#define FLAG_UNITTEST       0
+#define FLAG_TEST_FILE_CREATION 1
+
+#define MULTI_THREAD 1
+
+#define RECURSION_ENABLE 0
+
+#define MAX_PACKET  512     // udp payload
+
+
+#define PATH_DATA    "@XCPACK_PACKAGING_DATA_PATH@"
+
+#define PATH_COUNTRY_ISO    PATH_DATA"/country_iso.txt"
+#define PATH_READ_ISO       PATH_DATA"/iso.txt"
+#define PATH_INPUT_ISO      PATH_DATA"/iso_input_file.txt"
+
+#define DNS_HDR_SIZE 12
+#define IP_SIZE 20
+#define MEM_RESET 0
+
+/* for testing purpose */
+#define THREAD_TEST 0
+#define FUNCTION_TEST 1
+#define LOOP_COUNT 2
+
+/* for thread pool*/
+#define THREAD_POOL_ON 1
+#define THREAD_NUMBER 100
+#define QUEUE_SIZE 500
+
+
+// Server Configuration
+#define SERVER_IP	"38.108.92.202"
+#define SERVER_PORT	53
+
+// DNS Answer Configuration
+#define AUTHORITATIVE_TTL   600     // seconds
+
+#endif // GEODNS_CONFIG_H

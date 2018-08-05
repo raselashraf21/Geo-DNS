@@ -1,0 +1,45 @@
+# Make color object used to coloring message print.
+if (NOT WIN32)
+    string(ASCII 27 Esc)
+    set(ColourReset "${Esc}[m")
+    set(ColourBold "${Esc}[1m")
+    set(Red "${Esc}[31m")
+    set(Green "${Esc}[32m")
+    set(Yellow "${Esc}[33m")
+    set(Blue "${Esc}[34m")
+    set(Magenta "${Esc}[35m")
+    set(Cyan "${Esc}[36m")
+    set(White "${Esc}[37m")
+    set(BoldRed "${Esc}[1;31m")
+    set(BoldGreen "${Esc}[1;32m")
+    set(BoldYellow "${Esc}[1;33m")
+    set(BoldBlue "${Esc}[1;34m")
+    set(BoldMagenta "${Esc}[1;35m")
+    set(BoldCyan "${Esc}[1;36m")
+    set(BoldWhite "${Esc}[1;37m")
+endif ()
+
+set(PROJECT_NAME ipv-geodns)
+set(VERSION_MAJOR 1)
+set(VERSION_MINOR 0)
+set(VERSION_SUBMINOR 0)
+
+set(CMAKE_VERBOSE_MAKEFILE on)      # ???
+
+# RPM Information https://cmake.org/cmake/help/v2.8.12/cmake.html#module:CPackRPM
+set(XCPACK_PACKAGING_SERVICE_PATH /etc/systemd/system/)
+set(XCPACK_PACKAGING_INSTALL_PATH /usr/local/bin)
+set(XCPACK_PACKAGING_DATA_PATH /etc/${PROJECT_NAME})
+
+set(CPACK_PACKAGE_DESCRIPTION_FILE "${CMAKE_CURRENT_SOURCE_DIR}/requirements.txt")
+set(CPACK_RESOURCE_FILE_LICENSE "${CMAKE_CURRENT_SOURCE_DIR}/requirements.txt")
+
+set(CPACK_RPM_PACKAGE_SUMMARY "IPVision GeoDNS")
+set(CPACK_PACKAGE_NAME ${PROJECT_NAME})
+set(CPACK_PACKAGE_RELEASE 1)
+set(CPACK_RPM_PACKAGE_NAME ${PROJECT_NAME})
+set(CPACK_PACKAGE_VERSION ${VERSION_MAJOR}.${VERSION_MINOR}.${VERSION_SUBMINOR})
+set(CPACK_RPM_PACKAGE_RELEASE ${CPACK_PACKAGE_RELEASE})
+set(CPACK_RPM_PACKAGE_VERSION ${CPACK_PACKAGE_VERSION})
+set(CPACK_PACKAGE_CONTACT "John Explainer")
+set(CPACK_PACKAGE_VENDOR "My Company")

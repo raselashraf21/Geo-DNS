@@ -1,0 +1,164 @@
+sqlite3 lookup.db
+UPDATE table_group_ip SET ip = '104.193.36.20' WHERE ip_group = 1;
+DROP TABLE table_group_ip;
+DELETE FROM COMPANY WHERE ip LIKE '%103.26.115.151%';
+INSERT INTO table_group_ip VALUES(1, '103.26.115.150', 'A');
+ALTER TABLE table_group_ip ADD COLUMN priority INTEGER;
+
+ALTER TABLE table_group_ip ADD COLUMN ttl INTEGER DEFAULT 600;
+
+UPDATE table_group_ip SET ttl = 1000 WHERE ip_group = 1 AND ip = '103.26.115.150';
+
+
+
+
+CREATE TABLE table_host_group(host VARCHAR(100), ip_group INTEGER);
+CREATE TABLE table_group_ip(ip_group INTEGER, ip VARCHAR(20), type VARCHAR(10));
+
+************************************ DOWNLOAD ************************************
+//CA
+INSERT INTO table_host_group VALUES('dnsstickerres.ringid.com', 0);
+
+INSERT INTO table_group_ip VALUES(0, '104.193.36.20', 'A');
+INSERT INTO table_group_ip VALUES(0, '104.193.36.21', 'A');
+INSERT INTO table_group_ip VALUES(0, '104.193.36.22', 'A');
+
+//BD
+INSERT INTO table_host_group VALUES('dnsstickerres.ringid.com', 1);
+
+INSERT INTO table_group_ip VALUES(1, '103.26.115.150', 'A');
+INSERT INTO table_group_ip VALUES(1, '103.26.115.151', 'A');
+
+
+
+
+
+//CA
+INSERT INTO table_host_group VALUES('stickerres.ringid.com', 2);
+
+INSERT INTO table_group_ip VALUES(2, '104.193.36.20', 'A');
+INSERT INTO table_group_ip VALUES(2, '104.193.36.21', 'A');
+INSERT INTO table_group_ip VALUES(2, '104.193.36.22', 'A');
+
+//BD
+INSERT INTO table_host_group VALUES('stickerres.ringid.com', 3);
+
+INSERT INTO table_group_ip VALUES(3, '103.26.115.150', 'A');
+INSERT INTO table_group_ip VALUES(3, '103.26.115.151', 'A');
+
+
+
+
+//CA
+INSERT INTO table_host_group VALUES('dnsimagesres.ringid.com', 4);
+
+INSERT INTO table_group_ip VALUES(4, '104.193.36.20', 'A');
+INSERT INTO table_group_ip VALUES(4, '104.193.36.21', 'A');
+INSERT INTO table_group_ip VALUES(4, '104.193.36.22', 'A');
+
+//BD
+INSERT INTO table_host_group VALUES('dnsimagesres.ringid.com', 5);
+
+INSERT INTO table_group_ip VALUES(5, '103.26.115.150', 'A');
+INSERT INTO table_group_ip VALUES(5, '103.26.115.151', 'A');
+
+
+
+
+//CA
+INSERT INTO table_host_group VALUES('imagesres.ringid.com', 6);
+
+INSERT INTO table_group_ip VALUES(6, '104.193.36.20', 'A');
+INSERT INTO table_group_ip VALUES(6, '104.193.36.21', 'A');
+INSERT INTO table_group_ip VALUES(6, '104.193.36.22', 'A');
+
+//BD
+INSERT INTO table_host_group VALUES('imagesres.ringid.com', 7);
+
+INSERT INTO table_group_ip VALUES(7, '103.26.115.150', 'A');
+INSERT INTO table_group_ip VALUES(7, '103.26.115.151', 'A');
+
+
+
+
+
+//CA
+INSERT INTO table_host_group VALUES('dnsmediacloud.ringid.com', 8);
+
+INSERT INTO table_group_ip VALUES(8, '104.193.36.20', 'A');
+INSERT INTO table_group_ip VALUES(8, '104.193.36.21', 'A');
+INSERT INTO table_group_ip VALUES(8, '104.193.36.22', 'A');
+
+//BD
+INSERT INTO table_host_group VALUES('dnsmediacloud.ringid.com', 9);
+
+INSERT INTO table_group_ip VALUES(9, '103.26.115.100', 'A');
+INSERT INTO table_group_ip VALUES(9, '103.26.115.101', 'A');
+
+
+
+
+
+//CA
+INSERT INTO table_host_group VALUES('mediacloud.ringid.com', 10);
+
+INSERT INTO table_group_ip VALUES(10, '104.193.36.20', 'A');
+INSERT INTO table_group_ip VALUES(10, '104.193.36.21', 'A');
+INSERT INTO table_group_ip VALUES(10, '104.193.36.22', 'A');
+
+//BD
+INSERT INTO table_host_group VALUES('mediacloud.ringid.com', 11);
+
+INSERT INTO table_group_ip VALUES(11, '103.26.115.100', 'A');
+INSERT INTO table_group_ip VALUES(11, '103.26.115.101', 'A');
+
+
+************************************ UPLOAD ************************************
+//ALL
+INSERT INTO table_host_group VALUES('images.ringid.com', 12);
+
+INSERT INTO table_group_ip VALUES(12, '104.193.36.20', 'A');
+INSERT INTO table_group_ip VALUES(12, '104.193.36.21', 'A');
+INSERT INTO table_group_ip VALUES(12, '104.193.36.22', 'A');
+
+
+
+
+//ALL
+INSERT INTO table_host_group VALUES('dnsimages.ringid.com', 13);
+
+INSERT INTO table_group_ip VALUES(13, '104.193.36.20', 'A');
+INSERT INTO table_group_ip VALUES(13, '104.193.36.21', 'A');
+INSERT INTO table_group_ip VALUES(13, '104.193.36.22', 'A');
+
+
+
+//CA
+INSERT INTO table_host_group VALUES('dnsmediacloudapi.ringid.com', 14);
+
+INSERT INTO table_group_ip VALUES(14, '104.193.36.20', 'A');
+INSERT INTO table_group_ip VALUES(14, '104.193.36.21', 'A');
+INSERT INTO table_group_ip VALUES(14, '104.193.36.22', 'A');
+
+//BD
+INSERT INTO table_host_group VALUES('dnsmediacloudapi.ringid.com', 15);
+
+INSERT INTO table_group_ip VALUES(15, '103.26.115.100', 'A');
+INSERT INTO table_group_ip VALUES(15, '103.26.115.101', 'A');
+
+
+
+
+
+//CA
+INSERT INTO table_host_group VALUES('mediacloudapi.ringid.com', 16);
+
+INSERT INTO table_group_ip VALUES(16, '104.193.36.20', 'A');
+INSERT INTO table_group_ip VALUES(16, '104.193.36.21', 'A');
+INSERT INTO table_group_ip VALUES(16, '104.193.36.22', 'A');
+
+//BD
+INSERT INTO table_host_group VALUES('mediacloudapi.ringid.com', 17);
+
+INSERT INTO table_group_ip VALUES(17, '103.26.115.100', 'A');
+INSERT INTO table_group_ip VALUES(17, '103.26.115.101', 'A');

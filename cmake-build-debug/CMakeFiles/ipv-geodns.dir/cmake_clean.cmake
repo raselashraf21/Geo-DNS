@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/ipv-geodns.dir/src/dns/dns_app.c.o"
+  "CMakeFiles/ipv-geodns.dir/src/dns/dns_packet_parser.c.o"
+  "CMakeFiles/ipv-geodns.dir/src/dns/dns_response.c.o"
+  "CMakeFiles/ipv-geodns.dir/src/dns/rtypes.c.o"
+  "CMakeFiles/ipv-geodns.dir/src/dns/strutils.c.o"
+  "CMakeFiles/ipv-geodns.dir/src/dns/err_checker.c.o"
+  "CMakeFiles/ipv-geodns.dir/src/dns/dns_thread_ctx.c.o"
+  "CMakeFiles/ipv-geodns.dir/src/lookup/loookup.c.o"
+  "CMakeFiles/ipv-geodns.dir/src/lookup/geoip.c.o"
+  "CMakeFiles/ipv-geodns.dir/src/lookup/iso_groups_avl.c.o"
+  "CMakeFiles/ipv-geodns.dir/src/server/server.c.o"
+  "CMakeFiles/ipv-geodns.dir/src/server/server_isymped.c.o"
+  "CMakeFiles/ipv-geodns.dir/src/server/cmd_server.c.o"
+  "CMakeFiles/ipv-geodns.dir/src/factory/factory_server.c.o"
+  "CMakeFiles/ipv-geodns.dir/src/utility/sqlite_db_backup.c.o"
+  "CMakeFiles/ipv-geodns.dir/src/utility/new.c.o"
+  "CMakeFiles/ipv-geodns.dir/src/utility/dns_log.c.o"
+  "CMakeFiles/ipv-geodns.dir/src/utility/create_iso_group.c.o"
+  "CMakeFiles/ipv-geodns.dir/src/utility/avl.c.o"
+  "CMakeFiles/ipv-geodns.dir/src/utility/ini_parser.c.o"
+  "CMakeFiles/ipv-geodns.dir/src/utility/log/log.c.o"
+  "CMakeFiles/ipv-geodns.dir/src/utility/log/log_syslog.c.o"
+  "CMakeFiles/ipv-geodns.dir/src/test/test.c.o"
+  "CMakeFiles/ipv-geodns.dir/src/test/test_parser.c.o"
+  "CMakeFiles/ipv-geodns.dir/src/test/test_packet_parse.c.o"
+  "CMakeFiles/ipv-geodns.dir/src/test/test_lookup.c.o"
+  "CMakeFiles/ipv-geodns.dir/src/test/test_lookup_geoip.c.o"
+  "CMakeFiles/ipv-geodns.dir/src/test/test_ipv_assert.c.o"
+  "CMakeFiles/ipv-geodns.dir/src/test/test_ipv_log.c.o"
+  "CMakeFiles/ipv-geodns.dir/src/test/unittest/unit_test.c.o"
+  "CMakeFiles/ipv-geodns.dir/src/main.c.o"
+  "ipv-geodns.pdb"
+  "ipv-geodns"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/ipv-geodns.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

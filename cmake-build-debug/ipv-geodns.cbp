@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ipv-geodns"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake\Modules\;CMake Files\templates\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ashraf/geodns/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ashraf/geodns/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ashraf/geodns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ashraf/geodns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ashraf/geodns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package">
+				<Option working_dir="/home/ashraf/geodns/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ashraf/geodns/cmake-build-debug/Makefile&quot;  VERBOSE=1 package"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ashraf/geodns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ashraf/geodns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ashraf/geodns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package_source">
+				<Option working_dir="/home/ashraf/geodns/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ashraf/geodns/cmake-build-debug/Makefile&quot;  VERBOSE=1 package_source"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ashraf/geodns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ashraf/geodns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ashraf/geodns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ashraf/geodns/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ashraf/geodns/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ashraf/geodns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ashraf/geodns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ashraf/geodns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ashraf/geodns/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ashraf/geodns/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ashraf/geodns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ashraf/geodns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ashraf/geodns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/ashraf/geodns/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ashraf/geodns/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ashraf/geodns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ashraf/geodns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ashraf/geodns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/ashraf/geodns/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ashraf/geodns/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ashraf/geodns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ashraf/geodns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ashraf/geodns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/ashraf/geodns/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ashraf/geodns/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ashraf/geodns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ashraf/geodns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ashraf/geodns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/ashraf/geodns/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ashraf/geodns/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ashraf/geodns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ashraf/geodns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ashraf/geodns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ipv-geodns">
+				<Option output="/home/ashraf/geodns/cmake-build-debug/ipv-geodns" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ashraf/geodns/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ashraf/geodns/src"/>
+					<Add directory="/home/ashraf/geodns/libs/p99"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ashraf/geodns/cmake-build-debug/Makefile&quot;  VERBOSE=1 ipv-geodns"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ashraf/geodns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ashraf/geodns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ashraf/geodns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ipv-geodns/fast">
+				<Option output="/home/ashraf/geodns/cmake-build-debug/ipv-geodns" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ashraf/geodns/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ashraf/geodns/src"/>
+					<Add directory="/home/ashraf/geodns/libs/p99"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ashraf/geodns/cmake-build-debug/Makefile&quot;  VERBOSE=1 ipv-geodns/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ashraf/geodns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ashraf/geodns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ashraf/geodns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ashraf/geodns/src/config.h">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/dns/dns_app.c">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/dns/dns_app.h">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/dns/dns_packet.h">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/dns/dns_packet_parser.c">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/dns/dns_packet_parser.h">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/dns/dns_response.c">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/dns/dns_response.h">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/dns/dns_thread_ctx.c">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/dns/dns_thread_ctx.h">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/dns/err_checker.c">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/dns/err_checker.h">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/dns/rtypes.c">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/dns/rtypes.h">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/dns/strutils.c">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/dns/strutils.h">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/factory/config_key.h">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/factory/factory.h">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/factory/factory_server.c">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/geodns_error_code.h">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/lookup/geoip.c">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/lookup/geoip.h">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/lookup/iso_groups.h">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/lookup/iso_groups_avl.c">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/lookup/loookup.c">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/lookup/loookup.h">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/main.c">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/server/cmd_server.c">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/server/cmd_server.h">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/server/server.c">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/server/server.h">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/server/server_isymped.c">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/test/test.c">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/test/test.h">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/test/test_ipv_assert.c">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/test/test_ipv_log.c">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/test/test_lookup.c">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/test/test_lookup_geoip.c">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/test/test_packet_parse.c">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/test/test_parser.c">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/test/unittest/unit_test.c">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/test/unittest/unit_test.h">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/utility/__assert.h">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/utility/avl.c">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/utility/avl.h">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/utility/create_iso_file.h">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/utility/create_iso_group.c">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/utility/def.h">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/utility/dns_log.c">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/utility/dns_log.h">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/utility/ini_parser.c">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/utility/ini_parser.h">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/utility/log/log.c">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/utility/log/log.h">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/utility/log/log_syslog.c">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/utility/new.c">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/utility/new.h">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/utility/sqlite_db_backup.c">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/src/utility/sqlite_db_backup.h">
+			<Option target="ipv-geodns"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/CMakeProjectVariables.cmake">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/cmake/Modules/FindSQLite3.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/cmake/Modules/FindLibMaxmindDB.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/templates/systemd.service.in">
+			<Option virtualFolder="CMake Files\templates\"/>
+		</Unit>
+		<Unit filename="/home/ashraf/geodns/templates/rpm.spec.in">
+			<Option virtualFolder="CMake Files\templates\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

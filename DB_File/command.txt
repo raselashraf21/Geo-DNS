@@ -1,0 +1,20 @@
+Use:-
+	"gcc -g sample.c -lmaxminddb -o output.out"
+command instead of using:-
+	"gcc -g sample.c -o output.out"
+as you need to link the library while compiling.
+
+In this case (from terminal):-
+    "gcc -g testmain.c getcountryByname.c -lmaxminddb -o output.out"
+
+
+converting a .csv file into .txt file:-
+
+	--> to get .text file from a .csv file just use $cut command from terminal
+	--> I used the following command to get the country_iso(column-5) from the "GeoIPCountryWhois.csv" file:-
+		--> $cut -d, -f5 < GeoIPCountryWhois.csv | sed 's/"//g' | sort | uniq > countries.txt
+	--> to get country + iso just change column-5 "-f5" to column-5,6 "-f5,6" and to get IP ranges column-1,2 "-f1,2" 
+	--> to get unique entries of a specific column use the following command:-
+		--> $cut -d, -fcolumn_number < input_file.csv | sed 's/"//g' | sort | uniq > output_file.txt
+
+	--> ref:- https://geti2p.net/spec/geoip
